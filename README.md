@@ -1,6 +1,7 @@
 # The Tranquil Haven
 
 Main Project in Jonas Schemdtmann's Ultimate React course.
+Built with React Query and Supabase.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
