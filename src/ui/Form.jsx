@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { device } from "../utils/media";
 
 const Form = styled.form`
   ${(props) =>
@@ -25,6 +26,10 @@ const Form = styled.form`
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(15px);
       z-index: 1;
+      grid-template-columns: 48rem;
+      @media ${device.mini} {
+        padding: 2rem;
+      }
     `}
 
   ${(props) =>

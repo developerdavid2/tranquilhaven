@@ -3,6 +3,7 @@ import Logo from "../ui/Logo";
 import Heading from "../ui/Heading";
 import LoginForm from "../features/authentication/LoginForm";
 import BackdropText from "../ui/BackdropText";
+import { device } from "../utils/media";
 
 const LoginLayout = styled.div`
   position: relative;
@@ -14,6 +15,10 @@ const LoginLayout = styled.div`
   gap: 3.2rem;
   background-color: var(--color-grey-50);
   overflow: hidden;
+
+  @media ${device.mini} {
+    grid-template-columns: 32rem;
+  }
 `;
 
 function Login() {

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
 import Uploader from "../data/Uploader";
+import { device } from "../utils/media";
 
 const StyledSidebar = styled.aside`
   grid-row: 1/-1;
@@ -11,6 +12,10 @@ const StyledSidebar = styled.aside`
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+
+  @media ${device.mini} {
+    display: none;
+  }
 `;
 function Sidebar() {
   return (

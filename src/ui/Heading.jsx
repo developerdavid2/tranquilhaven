@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { device } from "../utils/media";
 
 const Heading = styled.h1`
   ${(props) =>
@@ -28,6 +29,9 @@ ${(props) =>
       font-size: 3rem;
       font-weight: 600;
       text-align: center;
+      @media ${device.mini} {
+        font-size: 2.5rem;
+      }
     `}
   color: var(--color-grey-700);
 `;

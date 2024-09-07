@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../utils/media";
 
 const StyledBackDrop = styled.div`
   position: relative;
@@ -10,6 +11,9 @@ const Text = styled.h1`
   position: absolute;
   top: 100px;
   left: -85%;
+  @media ${device.mini} {
+    font-size: 10rem;
+  }
 `;
 const StyledBlurBody = styled.div`
   position: absolute;
