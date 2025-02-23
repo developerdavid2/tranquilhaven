@@ -129,7 +129,7 @@ function Uploader() {
     <div
       style={{
         marginTop: "auto",
-        backgroundColor: "#e0e7ff",
+        backgroundColor: "rgba(46,103,178,0.2)",
         padding: "8px",
         borderRadius: "15px",
         textAlign: "center",

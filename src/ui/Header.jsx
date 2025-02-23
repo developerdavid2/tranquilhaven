@@ -24,9 +24,9 @@ const ResponsiveLogo = styled.div`
 function Header() {
   return (
     <StyledHeader>
-      <ResponsiveLogo>
-        <Logo />
-      </ResponsiveLogo>
+      {/*<ResponsiveLogo>*/}
+      {/*  <Logo />*/}
+      {/*</ResponsiveLogo>*/}
       <UserAvatar />
       <HeaderMenu />
     </StyledHeader>
